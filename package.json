@@ -1,0 +1,58 @@
+{
+    "_from": "test-graphy",
+    "_id": "test-graphy@0.0.6",
+    "_inBundle": false,
+    "_integrity": "sha512-4av4xz+x0GQiU81E4dWJH2E+3ovxYAdl1YKr5indWYFlhPe7TM+ztngOL0NPw5pC8DLa3eehEn3sW6Evqv9Ywg==",
+    "_location": "/test-graphy",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "test-graphy",
+        "name": "test-graphy",
+        "escapedName": "test-graphy",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/test-graphy/-/test-graphy-0.0.6.tgz",
+    "_shasum": "38b49da1c2d279ffcb2922daf868664af44d69b0",
+    "_spec": "test-graphy",
+    "_where": "D:\\web-work\\node-templete",
+    "author": {
+        "name": "wangshenwei"
+    },
+    "bugs": {
+        "url": "https://github.com/chuwu0/test-graphy/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "a templete for sagacloud",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-preset-vue": "^2.0.2"
+    },
+    "homepage": "https://github.com/chuwu0/test-graphy#readme",
+    "keywords": [
+        "canvas",
+        "javascript"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "test-graphy",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chuwu0/test-graphy.git"
+    },
+    "scripts": {
+        "build": "babel src -d lib",
+        "test": "npm run dev"
+    },
+    "version": "0.0.7"
+}
